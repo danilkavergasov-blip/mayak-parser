@@ -1,0 +1,33 @@
+name: Auto Fuel Parser
+
+on:
+  schedule:
+    # Запуск каждые 5 часов
+    - cron: '0 */5 * * *'
+  workflow_dispatch: # Позволяет запускать кнопкой вручную
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: pip install requests beautifulsoup4
+
+    - name: Run parser
+      run: python gdebenz_parser.py
+
+    - name: Commit and Push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add stations.json
+        git commit -m "Auto-update fuel prices: $(date)" || exit 0
+        git push
