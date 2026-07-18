@@ -1,0 +1,50 @@
+[
+    {
+        "id": 301,
+        "name": "Татнефть №73",
+        "brand": "Татнефть",
+        "latitude": 54.9525,
+        "longitude": 48.2751,
+        "price_92": 49.8,
+        "status_92": "available",
+        "price_95": 54.5,
+        "status_95": "available",
+        "price_diesel": 62.1,
+        "status_diesel": "available",
+        "price_gas": null,
+        "status_gas": "unavailable",
+        "last_update": "18.07.2026"
+    },
+    {
+        "id": 302,
+        "name": "Лукойл ЦЕНТР",
+        "brand": "Лукойл",
+        "latitude": 54.9351,
+        "longitude": 48.3024,
+        "price_92": 50.4,
+        "status_92": "available",
+        "price_95": 55.9,
+        "status_95": "available",
+        "price_diesel": null,
+        "status_diesel": "unavailable",
+        "price_gas": null,
+        "status_gas": "unavailable",
+        "last_update": "18.07.2026"
+    },
+    {
+        "id": 303,
+        "name": "Газпром АГНКС",
+        "brand": "Газпром",
+        "latitude": 54.9418,
+        "longitude": 48.2685,
+        "price_92": null,
+        "status_92": "unavailable",
+        "price_95": null,
+        "status_95": "unavailable",
+        "price_diesel": null,
+        "status_diesel": "unavailable",
+        "price_gas": 23.8,
+        "status_gas": "available",
+        "last_update": "18.07.2026"
+    }
+]
