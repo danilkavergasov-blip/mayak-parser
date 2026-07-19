@@ -13,7 +13,7 @@
         "status_diesel": "available",
         "price_gas": null,
         "status_gas": "unavailable",
-        "last_update": "18.07.2026"
+        "last_update": "19.07.2026"
     },
     {
         "id": 302,
@@ -29,7 +29,7 @@
         "status_diesel": "unavailable",
         "price_gas": null,
         "status_gas": "unavailable",
-        "last_update": "18.07.2026"
+        "last_update": "19.07.2026"
     },
     {
         "id": 303,
@@ -45,6 +45,6 @@
         "status_diesel": "unavailable",
         "price_gas": 23.8,
         "status_gas": "available",
-        "last_update": "18.07.2026"
+        "last_update": "19.07.2026"
     }
 ]
